@@ -148,7 +148,8 @@ const handleSearch = async () => {
                 </div>
 
                 <button
-            onClick={() =>
+  
+onClick={() =>
     window.location.href = `/seats?flightId=${flight.id}`
   }
   className="mt-5 w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition"
