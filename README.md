@@ -1,40 +1,146 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✈️ AeroBook – Flight Booking System
 
-## Getting Started
+A modern full-stack flight booking web application built using Next.js, TypeScript, Tailwind CSS, and Supabase.
 
-First, run the development server:
+## 🚀 Features
+
+- User Authentication (Login / Signup)
+- Flight Search System
+- Dynamic Seat Selection
+- Real-time Seat Availability
+- Booking Confirmation
+- My Bookings Page
+- Responsive Modern UI
+- Supabase Database Integration
+- Protected Booking Flow
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend / Database
+- Supabase
+- PostgreSQL
+
+### Deployment
+- GitHub
+- Vercel (optional)
+
+---
+
+## 📂 Project Structure
+
+```bash
+app/
+ ├── login/
+ ├── search/
+ ├── seats/
+ ├── my-bookings/
+
+lib/
+ └── supabase/
+
+supabase/
+ └── migrations/
+```
+
+---
+
+## 🔐 Authentication
+
+Authentication is handled using Supabase Auth.
+
+Users can:
+- Sign up
+- Login
+- Book seats
+- View their bookings
+
+---
+
+## 🎟️ Booking Flow
+
+1. User logs in
+2. Searches flights
+3. Selects preferred seat
+4. Booking stored in Supabase
+5. Booking visible in “My Bookings”
+
+---
+
+## 💺 Seat Management
+
+- Available seats shown in green
+- Occupied seats shown in red
+- Selected seat shown in blue
+- Duplicate seat booking prevented
+
+---
+
+## 📸 UI Highlights
+
+- Modern airline-inspired interface
+- Dark premium theme
+- Responsive layout
+- Interactive seat selection
+- Smooth hover effects
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env.local` file and add:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+---
+
+## ▶️ Running Locally
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📌 Future Improvements
 
-To learn more about Next.js, take a look at the following resources:
+- Payment Gateway Integration
+- Admin Dashboard
+- Real Flight APIs
+- Email Notifications
+- Ticket PDF Generation
+- Flight Filters & Sorting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Author
 
-## Deploy on Vercel
+Developed by Yuvraaj Shukla
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# flight-booking-system
->>>>>>> ebc597f6923a635e251bfe087652e4a9936fcf17
+- VIT Vellore
+- Computer Science Engineering
+- AWS Cloud Practitioner Certified
